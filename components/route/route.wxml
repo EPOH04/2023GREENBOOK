@@ -1,0 +1,11 @@
+<view class="container">
+    <view class="day">
+        <text class="day-item1">{{day_item1}}</text>
+        <text class="day-item2">{{day_item2}}</text>
+    </view>
+    <view class="description">
+        <text class="des-item1">{{des_item1}}</text>
+        <text class="des-item2">{{des_item2}}</text>
+    </view>
+    <view class="detail">详情</view>
+</view>

@@ -1,0 +1,11 @@
+{
+    "styleIsolation": "apply-shared",
+    "component": true,
+    "usingComponents": {
+        "card": "/components/card/card",
+        "t-col": "tdesign-miniprogram/col/col",
+        "t-row": "tdesign-miniprogram/row/row",
+        "t-search": "tdesign-miniprogram/search/search",
+        "t-image": "tdesign-miniprogram/image/image"
+    }
+}

@@ -1,0 +1,40 @@
+<view class="container">
+  <view class="box1">
+    <image src="/pages/itinerary/res/luoyang.png" mode="aspectFill"/>
+    <text class="text1" >行程概览</text>
+    <scroll-view scroll-y="true" class="scroll-view-container">
+      <view class="routes">
+        <route class="route-item" wx:for="{{route}}" wx:key="index" day_item2="{{item.day_num}}" des_item1="{{item.spot_name}}" des_item2="{{item.route}}"></route>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="box2">
+    <text class="text2">洛阳2日游</text>
+    <overview  num_day="{{overview[0]}}" num_spot="{{overview[1]}}"></overview>
+    <!-- 遍历 day 数组中的每个对象 -->
+    <view wx:for="{{day}}" wx:key="index" class="day">
+      <!-- 展示每天的标题 -->
+      <text class="text3">{{item.title}}</text>
+      <view wx:for="{{item.event}}" wx:key="innerIndex">
+        <scenic-spot 
+          src="{{item.src}}"
+          number="{{item.number}}"
+          type="{{item.type}}"
+          name="{{item.name}}"
+          score="{{item.score}}"
+          index="{{item.index}}"
+          tips="{{item.tips}}">
+        </scenic-spot>
+      </view>
+    </view>
+    <view class="bottom">
+      <view class="bottom-item1">
+        <t-icon name="add-circle" size="48rpx"/>
+        <text class="text4">手动创建</text>
+      </view>
+      <view class="bottom-item2">
+        <t-button theme="primary" color>加入我的手册</t-button>
+      </view>
+    </view>
+  </view>
+</view>

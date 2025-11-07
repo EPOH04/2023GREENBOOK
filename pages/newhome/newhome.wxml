@@ -1,0 +1,69 @@
+<view class="content">
+		<!-- 搜索框 -->
+		<view class="search">
+			<view class="icon">
+				<image src="/res/image/newhome/search.png" mode=""></image>
+			</view>
+			<view class="input">
+				<input type="text" placeholder-style="color:#000;" placeholder="搜索想去的城市" />
+			</view>
+		</view>
+		<!-- 个人信息 -->
+		<view class="user">
+			<view class="image">
+				<image src="/res/image/newhome/user.png" mode=""></image>
+			</view>
+			<view class="name">
+				OVACATION
+			</view>
+			<view class="email">
+				2458181741@qq.com
+			</view>
+		</view>
+		<!-- 名称 -->
+		<view class="title">
+			行千里路，读万卷书
+		</view>
+		<view class="tab">
+			<view class="item">
+				<view class="num">
+					0
+				</view>
+				<view class="name">
+					SHOTS
+				</view>
+			</view>
+			<view class="span">
+				
+			</view>
+			<view class="item">
+				<view class="num">
+					1
+				</view>
+				<view class="name">
+					PROJECTS
+				</view>
+			</view>
+			<view class="span">
+				
+			</view>
+			<view class="item">
+				<view class="num">
+					24k
+				</view>
+				<view class="name">
+					FOLLOWERS
+				</view>
+			</view>
+		</view>
+		<!-- 旅行手册 -->
+		<view class="travelBrochure">
+			<view class="titles">
+				旅行手册
+			</view>
+			<view class="list">
+        <items List="{{List}}" Name="{{Name}}">
+       </items>
+			</view>
+		</view>
+	</view>

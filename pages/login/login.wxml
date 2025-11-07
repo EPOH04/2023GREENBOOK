@@ -1,0 +1,15 @@
+<view class="wrap">
+  <view class="container">
+    <view class="header">
+      <view class="logo">
+        <image src="./res/logo1.jpg"/>
+      </view>
+    </view> 
+    <t-input class="input-box" prefixIcon="check-rectangle" placeholder="账号：123456" bindchange="onUsernameInput" />
+    <t-input class="input-box" prefixIcon="https" placeholder="密码：******" bindchange="onPasswordInput" />
+    <view class="button-group">
+      <button class="button" bind:tap="onLogin">登录</button>
+      <button class="button">注册</button>
+    </view>
+  </view>   
+</view>  

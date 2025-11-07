@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "t-button": "tdesign-miniprogram/button/button"
+  },
+  "navigationBarTitleText": "偏好选择",
+  "component": true,
+  "styleIsolation": "shared"
+}

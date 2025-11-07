@@ -1,0 +1,33 @@
+<view class="search-container">
+  <view bind:tap="onAvatarTap" >
+    <t-avatar class="avatar-example" icon="user" />
+  </view>
+  <t-search model:value="{{value}}" placeholder="现在就出发吧！" />
+</view>
+<view class="choosetab">
+  <view class="tab__card" data-type="food" bind:tap="onIconTap">
+    <t-image src="{{food_img}}" mode="aspectFill" width="54" height="54" />
+    <view class="choosetab-name">dev-liao</view>
+  </view>
+  <view class="tab__card" data-type="spot" bind:tap="onIconTap">
+    <t-image src="{{spot_img}}" mode="aspectFill" width="54" height="54" />
+    <view class="choosetab-name">dev-lv</view>
+  </view>
+  <view class="tab__card" data-type="hotel" bind:tap="onIconTap">
+    <t-image src="{{hotel_img}}" mode="aspectFill" width="54" height="54" />
+    <view class="choosetab-name">创建路线</view>
+  </view>
+</view>
+
+<view bindtap="navigateToDetail">
+  <t-image src="{{food_img}}" mode="aspectFill" width="54" height="54" />
+  <view class="choosetab-name" style="width: fit-content;">epoh</view>
+</view>
+
+<!-- <view class="map_container">
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" markers="{{markers}}"></map>
+</view>
+<view class="map_text">
+  <text class="h1">{{textData.name}}</text>
+  <text>{{textData.desc}}</text>
+</view> -->

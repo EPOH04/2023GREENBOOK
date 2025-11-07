@@ -1,0 +1,96 @@
+<view class="header">
+  <!-- 搜索栏 -->
+  <view class="search-container">
+    <view bind:tap="onAvatarTap">
+      <t-avatar class="avatar-example" icon="user" />
+    </view>
+    <t-search model:value="{{value}}" placeholder="搜索想去的城市" shape="round"/>
+  </view>
+  <!-- 标题 -->
+  <view class="title1">
+    <t-image src="/pages/search/res/cloud.png" width="51rpx" height="34rpx" style="padding-top: 22rpx;"/>
+    热门城市
+  </view>
+</view>
+<!-- 卡片 -->
+
+<scroll-view class="scroll" scroll-y="true">
+  <view class="scroll-row">
+    <t-row gutter="2">
+      <t-col span="12">
+        <card src="/pages/search/res/guilin.jpg" title="桂林" content="山清水秀洞奇石美"></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/pages/search/res/hulunbeier.jpg" title="呼伦贝尔" content="纵览壮阔草原风光"></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/pages/search/res/sanya.jpg" title="三亚" content="体验星级度假酒店"></card>
+      </t-col>
+    </t-row>
+  </view>
+  <view class="scroll-row">
+    <t-row gutter="2">
+      <t-col span="12">
+        <card src="/pages/search/res/jiuzhaigou.jpg" title="九寨沟" content="九寨归来不看水"></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/pages/search/res/guangzhou.jpeg" title="广州" content="玩转长隆亲子天堂"></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/pages/search/res/yining.jpg" title="伊宁市" content="薰衣草漫山遍野开"></card>
+      </t-col>
+    </t-row>
+  </view>
+  <view class="scroll-row">
+    <t-row gutter="2">
+      <t-col span="12">
+        <card src="/pages/search/res/xianbenjun.jpg" title="仙本那" content="世界潜水圣地"></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/pages/search/res/xiamen.jpg" title="厦门" content="鼓浪屿的慵懒时光"></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/pages/search/res/xianggelila.jpg" title="香格里拉" content="听风听鸟鸣听流水"></card>
+      </t-col>
+    </t-row>
+  </view>
+  <view class="scroll-row">
+    <t-row gutter="2">
+      <t-col span="12">
+        <card src="/pages/search/res/dali.jpg" title="大理" content="洱海边等风花雪月"></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/pages/search/res/chongqing.jpg" title="重庆" content="打卡8D魔幻山城"></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/pages/search/res/chengdu.jpg" title="成都" content="巴适惬意慢生活"></card>
+      </t-col>
+    </t-row>
+  </view>
+  <view class="scroll-row">
+    <t-row gutter="2">
+      <t-col span="12">
+        <card src="/pages/search/res/huangshan.jpg" title="黄山" content="黄山归来不看岳"></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/pages/search/res/shanghai.jpg" title="上海" content="十里洋场摩登都市"></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/pages/search/res/hangzhou.jpg" title="杭州" content="风光不与四时同"></card>
+      </t-col>
+    </t-row>
+  </view>
+  <view class="scroll-row">
+    <t-row gutter="2">
+      <t-col span="12">
+        <card src="/res/image/card" title="" content=""></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/res/image/card" title="" content=""></card>
+      </t-col>
+      <t-col span="12">
+        <card src="/res/image/card" title="" content=""></card>
+      </t-col>
+    </t-row>
+  </view>
+</scroll-view>
