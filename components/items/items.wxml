@@ -1,0 +1,14 @@
+<view class="item">
+  <view class="name">
+   {{Name}} {{Index}}/{{List.length}}
+  </view>
+  <view class="swiper">
+    <swiper :autoplay="true" :interval="3000" :duration="1000" class="swipers" bindchange="GetChange">
+      <swiper-item wx:for="{{List}}" wx:key="{{index}}">
+        <view class="swiper-item">
+          <image src="{{item.image}}" mode="widthFix"></image>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

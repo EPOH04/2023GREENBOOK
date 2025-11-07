@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "scenic-spot":"/components/scenic-spot/scenic-spot",
+    "route":"/components/route/route",
+    "overview":"/components/overview/overview",
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-icon": "tdesign-miniprogram/icon/icon"
+  }
+}

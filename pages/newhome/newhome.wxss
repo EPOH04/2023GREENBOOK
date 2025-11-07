@@ -1,0 +1,107 @@
+page{
+  background: rgba(206, 235, 143, 1);
+}
+/* .content{
+} */
+.search{
+  margin: 150rpx auto 0;
+  width: 636rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 0 37rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.icon{
+  width: 30rpx;
+  height: 30rpx;
+  position: relative;
+  top: -4rpx;
+}
+.icon image{
+  width: 100%;
+  height: 100%;
+}
+.input{
+  margin-left: 22rpx;
+}
+.input input{
+  flex: 1;
+  font-size: 24rpx;
+}
+.user{
+  margin-top: 80rpx;
+}
+.user .image{
+  width: 112rpx;
+  height: 112rpx;
+  display: flex;
+  margin: 0 auto;
+}
+.user .image image{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.user .name{
+  font-weight: 700;
+  font-size: 40rpx;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-top: 30rpx;
+}
+.user .email{
+  font-size: 20rpx;
+  color: rgba(180, 180, 180, 1);
+  margin-top: 11rpx;
+  text-align: center;
+}
+.title{
+  margin-top: 72rpx;
+  font-size: 36rpx;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.tab{
+  padding: 0 50rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-top: 100rpx;
+}
+.tab .span{
+  width: 2px;
+  height: 24px;
+  opacity: 0.19;
+  background: rgba(180, 180, 180, 1); 
+}
+.tab .item{
+  flex: 1;
+}
+.tab .item .num{
+  font-size: 40rpx;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.tab .item .name{
+  margin-top: 36rpx;
+  color: rgba(180, 180, 180, 1);
+  font-size: 20rpx;
+  text-align: center;
+}
+.travelBrochure{
+  margin-top: 100rpx;
+}
+.travelBrochure .titles{
+  padding-left: 32rpx;
+  color: rgba(0, 0, 0, 1);
+  padding-bottom: 15rpx;
+  border-bottom: 2rpx solid #A5AF91;
+}
+.travelBrochure .list{
+  padding: 0 50rpx;
+  box-sizing: border-box;
+}

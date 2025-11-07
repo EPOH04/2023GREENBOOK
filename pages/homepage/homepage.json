@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-image": "tdesign-miniprogram/image/image"
+  },
+  "navigationBarTitleText": "个人主页",
+  "backgroundColor": "#a0c249"
+}

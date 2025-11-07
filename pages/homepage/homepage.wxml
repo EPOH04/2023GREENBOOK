@@ -1,0 +1,55 @@
+<!--pages/homepage/homepage.wxml-->
+<view class="container">
+  <!-- 页面内容放在这里 -->
+  <view class="container">
+    <!-- 渐变背景矩形 -->
+    <view class="gradient-box"></view>
+    <!-- 圆形头像图片，绝对定位覆盖在渐变背景上方 -->
+    <image class="avatar" src="/res/image/homepage/avatar.jpg" mode="aspectFill" />
+  </view>
+  <text class="avatar-text">OVACATION</text>
+  <text class="avatar-text">lru884575@gmail.com</text>
+</view>
+<view class="text-pos">
+  <text class="custom-text1">旅行手册</text>
+</view>
+<view class="capsule1">
+  <text class="capsule-text1">洛阳</text>
+</view>
+<view class="capsule2">
+  <text class="capsule-text2">成都</text>
+</view>
+<view class="capsule3">
+  <text class="capsule-text3">北京</text>
+</view>
+<view class="capsule4">
+  <text class="capsule-text4">重庆</text>
+</view>
+<view class="capsule5">
+  <text class="capsule-text5">黑龙江</text>
+</view>
+<view class="row1">
+  <!-- 左侧纵向排列的容器 -->
+  <view class="left-column1">
+    <view class="col1">
+      <t-image src="{{image1}}" width="210rpx" height="140rpx" shape="round" />
+    </view>
+    <view class="col3">
+      <t-image src="{{image3}}" width="210rpx" height="140rpx" shape="round" />
+    </view>
+  </view>
+  <!-- 右侧占据空间的容器 -->
+  <view class="col2">
+    <t-image src="{{image2}}" width="187rpx" height="351rpx" shape="round" />
+  </view>
+</view>
+<view class="row2">
+  <!-- 左侧纵向排列的容器 -->
+  <view class="col4">
+    <t-image src="{{image4}}" width="320rpx" height="300rpx" shape="round" />
+  </view>
+  <!-- 右侧占据空间的容器 -->
+  <view class="col5">
+    <t-image src="{{image5}}" width="270rpx" height="300rpx" shape="round" />
+  </view>
+</view>

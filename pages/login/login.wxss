@@ -1,0 +1,68 @@
+.wrap {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(160, 194, 73, 1);
+  margin: 0; 
+  padding: 0; 
+}
+
+.container, .header {
+width: 100%;
+margin: 0; 
+padding: 0; 
+position: relative;
+}
+
+.logo {
+  margin: 0rpx; 
+  left: 34.8rpx;
+top: 3.48rpx;
+width: 100%;
+height: 655.98rpx;
+opacity: 1;
+border-radius: 53.94rpx;
+}
+image {
+  width: 100%;
+  height: 100%;
+}
+
+.input-box {
+  position: absolute;
+  left: 0rpx;
+  top: 40rpx;
+  width: 595rpx;
+  height: 107.88rpx;
+  opacity: 1;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 29.58rpx;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-start; 
+  width: 595.08rpx; 
+  margin-top: 104.4rpx;
+}
+
+.button {
+  font-size: 41.76rpx;
+  font-weight: 696;
+  letter-spacing: 0rpx;
+  line-height: 90rpx;
+  color: rgba(252, 252, 252, 1); /* Sets the text color */
+  width: 287.1rpx;
+  height: 106.14rpx;
+  opacity: 1;
+  padding-top: 13rpx;
+  border-radius: 24.36rpx;
+  margin-left: 10.44rpx; 
+  margin-right: 10.44rpx;
+  background: rgba(0, 200, 136, 1); /* Background for the first button */
+}
+
+.button:last-child {
+  background: rgba(248, 250, 242, 1);
+  color: black; 
+}
+

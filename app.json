@@ -1,0 +1,59 @@
+{
+  "subPackages": [
+    {
+      "root": "pages/register/",
+      "pages": [
+        "register"
+      ]
+    },
+    {
+      "root": "pages/login/",
+      "pages": [
+        "login"
+      ]
+    },
+    {
+      "root":"pages/search/",
+      "pages": [
+        "search"
+      ]
+    },
+    {
+      "root":"pages/itinerary/",
+      "pages": [
+          "itinerary"
+      ]
+    },
+    {
+        "root":"pages/newhome/",
+        "pages": [
+            "newhome"
+        ]
+    }
+  ],
+  "pages": [
+    "pages/home/home",
+    "pages/lu_xian/lu_xian"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取你当前位置信息用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation",
+    "chooseAddress"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {
+    "t-input": "tdesign-miniprogram/input/input"
+  }
+}

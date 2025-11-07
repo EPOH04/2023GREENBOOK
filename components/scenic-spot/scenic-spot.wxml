@@ -1,0 +1,15 @@
+<view class="container">
+<view class="img">
+  <image src="{{src}}" mode="aspectFill"/>
+  <view class="number">{{number}}</view>
+  <view class="type">{{type}}</view>
+</view>
+<view class="description">
+  <text class="text1">{{name}}</text>
+  <view class="index">
+    <text class="text2">{{score}}</text>
+    <view class="index-item" wx:for="{{index}}" wx:key="id">{{item}}</view>
+  </view>
+  <text class="text3">{{tips}}</text>
+</view>
+</view>

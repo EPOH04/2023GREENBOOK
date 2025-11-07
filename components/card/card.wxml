@@ -1,0 +1,5 @@
+<view class="image-parent">
+    <image class='image' mode='widthFix' src="{{src}}"></image>
+    <view class="title">{{title}}</view>
+    <view class="content">{{content}}</view>
+</view>

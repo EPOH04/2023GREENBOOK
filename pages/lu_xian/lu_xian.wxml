@@ -1,0 +1,28 @@
+<!-- row.wxml -->
+<view class="row">
+  <view class="part top-part">
+    <view>
+      <text class="text1">行程期待</text>
+      <text class="text2">至多选三个</text>
+    </view>
+  </view>
+  <view class="part middle-part">
+    <view class="col1">
+      <t-button style="width: 140rpx; background-color: #bcd9a3ff; color: black;" theme="primary" size="small">亲子</t-button>
+      <t-button style="width: 140rpx; background-color: #bcd9a3ff; color: black;" theme="primary" size="small">宗教风情</t-button>
+    </view>
+    <view class="col2">
+      <t-button style="width: 140rpx; background-color: #bcd9a3ff; color: black;" theme="primary" size="small">情侣</t-button>
+      <t-button style="width: 140rpx; background-color: #bcd9a3ff; color: black;" theme="primary" size="small">特色美食</t-button>
+    </view>
+    <view class="col3">
+      <t-button style="width: 140rpx; background-color: #bcd9a3ff; color: black;" theme="primary" size="small">历史遗迹</t-button>
+    </view>
+  </view>
+  <view class="part bottom-part">
+    <view class="button-example">
+      <t-button style="background-color: #006ff4ff; color: white;" theme="primary" size="large" block>智能生成路线</t-button>
+    </view>
+  </view>
+</view>
+<t-button style="background-color: #ffffffff; color: #689fdeff; border-radius: 0;" size="large" block t-class="external-class">直接手动编辑</t-button>

@@ -1,0 +1,58 @@
+<!--pages/register/register.wxml-->
+<view class="body">
+<view class="container1">
+  <text class="text1">创建新账号</text>
+  <image src="./res/1.png"/>
+  <text class="text2">头像</text>
+</view>
+<view class="container2">
+  <view class="input-group">
+    <text>你的名字</text>
+    <view class="input-container">
+      <view class="icon">
+        <t-icon name="user-circle" size="20"></t-icon>
+      </view>
+      <view class="input-content">
+        <t-input style="{{style}}" placeholder="请输入你的姓名"/>
+      </view>
+    </view>
+    <text>账号</text>
+    <view class="input-container">
+      <view class="icon">
+        <t-icon name="check-rectangle" size="20"></t-icon>
+      </view>
+      <view class="input-content">
+        <t-input style="{{style}}" placeholder="请输入你的账号"/>
+      </view>
+    </view>
+    <text>密码</text>
+    <view class="input-container">
+      <view class="icon">
+        <t-icon name="lock-on" size="20"></t-icon>
+      </view>
+      <view class="input-content">
+        <t-input style="{{style}}" placeholder="请创建密码"/>
+      </view>
+    </view>
+    <text>确认密码</text>
+    <view class="input-container">
+      <view class="icon">
+        <t-icon name="lock-on" size="20"></t-icon>
+      </view>
+      <view class="input-content">
+        <t-input style="{{style}}" placeholder="请再次输入密码"/>
+      </view>
+    </view>
+  </view>
+  <view class="confirm-btn">
+    <t-button theme="default" size="large" block>注册</t-button>
+  </view>
+</view>
+<view class="login-text">
+  <text>已经有账号了？点击</text>
+  <navigator url="../login/login">登录</navigator>
+</view>
+
+
+ 
+</view>

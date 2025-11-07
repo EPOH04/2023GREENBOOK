@@ -1,0 +1,196 @@
+/* pages/homepage/homepage.wxss */
+.container {
+  position: relative; /* 设置为相对定位 */
+  width: 100%; /* 容器宽度 */
+  height: 374.4rpx; /* 容器高度 */
+}
+.gradient-box {
+  position: absolute; /* 绝对定位 */
+  top: 0;
+  left: 0;
+  width: 100%; /* 渐变背景矩形宽度 */
+  height: 397.8rpx; /* 渐变背景矩形高度 */
+  background: linear-gradient(to right, #a0c049, #4d9e6e); /* 线性渐变背景 */
+}
+.avatar {
+  position: absolute; /* 绝对定位 */
+  top: 50%;
+  left: 50%;
+  width: 234rpx; /* 头像宽度 */
+  height: 234rpx; /* 头像高度 */
+  border-radius: 50%; /* 圆形头像 */
+  transform: translate(-50%, -50%); /* 居中定位 */
+}
+.avatar-text {
+  font-size: 28.08rpx; /* 文本大小 */
+  color: #333; /* 文本颜色 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5vh;
+  z-index: 3; /* 文字在上 */
+}
+.container {
+  background-color: #a0c249; /* 绿色背景 */
+}
+/* 如果你希望整个页面都填充绿色背景，可以设置页面的根容器 */
+page {
+  background-color: #a0c249; /* 绿色背景 */
+}
+.text-pos{
+  margin: 20rpx 28rpx;
+}
+.custom-text1 {
+  width: 200rpx;
+  height: 50rpx;
+  opacity: 1;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0rpx;
+  line-height: 24.7rpx;
+  color: rgba(87, 87, 42, 1);
+  text-align: center;
+  vertical-align: middle;
+}
+.capsule1 {
+  position: absolute;
+  top: 444.6rpx;
+  left: 35.1rpx;
+  width: 93.6rpx; /* 胶囊宽度 */
+  height: 48.6rpx; /* 胶囊高度 */
+  background-color: #ffeb3b; /* 背景颜色 */
+  border: 1px solid #ffeb3b; /* 边框 */
+  border-radius: 48.6rpx; /* 圆角边框，创建胶囊形状 */
+}
+.capsule-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28.08rpx; /* 字体大小 */
+  color: #333; /* 字体颜色 */
+}
+.capsule2 {
+  position: absolute;
+  top: 444.6rpx;
+  left: 468rpx;
+  width: 93.6rpx; /* 胶囊宽度 */
+  height: 48.6rpx; /* 胶囊高度 */
+  background-color: #ffeb3b; /* 背景颜色 */
+  border: 2.34rpx solid #ffeb3b; /* 边框 */
+  border-radius: 48.6rpx; /* 圆角边框，创建胶囊形状 */
+}
+.capsule-text2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28.08rpx; /* 字体大小 */
+  color: #333; /* 字体颜色 */
+}
+.capsule3 {
+  position: absolute;
+  top: 655.2rpx;
+  left: 35.1rpx;
+  width: 93.6rpx; /* 胶囊宽度 */
+  height: 48.6rpx; /* 胶囊高度 */
+  background-color: #ffeb3b; /* 背景颜色 */
+  border: 2.34rpx solid #ffeb3b; /* 边框 */
+  border-radius: 48.6rpx; /* 圆角边框，创建胶囊形状 */
+}
+.capsule-text3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28.08rpx; /* 字体大小 */
+  color: #333; /* 字体颜色 */
+}
+.capsule4 {
+  position: absolute;
+  top: 865.8rpx;
+  left: 35.1rpx;
+  width: 93.6rpx; /* 胶囊宽度 */
+  height: 48.6rpx; /* 胶囊高度 */
+  background-color: #ffeb3b; /* 背景颜色 */
+  border: 2.34rpx solid #ffeb3b; /* 边框 */
+  border-radius: 48.6rpx; /* 圆角边框，创建胶囊形状 */
+}
+.capsule-text4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28.08rpx; /* 字体大小 */
+  color: #333; /* 字体颜色 */
+}
+.capsule5 {
+  position: absolute;
+  top: 865.8rpx;
+  left: 468rpx;
+  width: 93.6rpx; /* 胶囊宽度 */
+  height: 46.8rpx; /* 胶囊高度 */
+  background-color: #ffeb3b; /* 背景颜色 */
+  border: 2.34rpx solid #ffeb3b; /* 边框 */
+  border-radius: 46.8rpx; /* 圆角边框，创建胶囊形状 */
+}
+.capsule-text5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28.8rpx; /* 字体大小 */
+  color: #333; /* 字体颜色 */
+}
+.tr {
+  display: flex;
+}
+.tr+.tr {
+  margin-top: 48rpx;
+}
+.col1{
+  display: flex;
+  width: 210rpx; /* 设置固定的宽度 */
+}
+.col2{
+  display: flex;
+  width: 187rpx; /* 设置固定的宽度 */
+}
+.col3{
+  display: flex;
+  width: 210rpx; /* 设置固定的宽度 */
+}
+.col4{
+  display: flex;
+  width: 320rpx; /* 设置固定的宽度 */
+}
+.col5{
+  display: flex;
+  width: 270rpx; /* 设置固定的宽度 */
+}
+/* Flex容器样式 */
+.row1 {
+  display: flex;
+  flex-direction: row; /* 子元素水平排列 */
+  gap: 230rpx; /* 子元素之间的间距 */
+  margin-top: 70rpx; /* 子元素顶部的外边距 */
+}
+/* 左侧纵向排列的容器 */
+.left-column1 {
+  display: flex;
+  flex-direction: column; /* 子元素垂直排列 */
+  margin-left: 30rpx; /* 直接设置左边距为20rpx */
+  gap: 70rpx; /* 子元素之间的间距 */
+}
+/* 右侧占据空间的容器 */
+.col3 {
+  flex-grow: 2; /* 占据右侧更多的空间 */
+}
+.row2 {
+  display: flex;
+  flex-direction: row; /* 子元素水平排列 */
+  gap: 110rpx; /* 子元素之间的间距 */
+  margin-top: 70rpx; /* 子元素顶部的外边距 */
+}
+.col4 {
+  flex-grow: 1;
+  margin-left: 30rpx; /* 直接设置左边距为20rpx */
+}
+.col5 {
+  flex-grow: 2; /* 占据右侧更多的空间 */
+}
